@@ -19,7 +19,7 @@ while (client_cmd != "exit"):
     i = 0
     while (i < len(results)):
         if (client_cmd in results[i]):
-            if (i < len(results)):
+            if (i < len(results) - 1):
                 print("In 1/", len(results[i]) // 2, "-", sep='', end='')
             else:
                 print("In ", end='')
